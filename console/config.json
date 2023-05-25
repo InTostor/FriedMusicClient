@@ -1,0 +1,9 @@
+{
+  "username":"InTostor",
+  "password":"Cummunism",
+  "accountServiceUrl":"http://0.0.0.0/",
+  "remoteMusicStorageUrl":"http://0.0.0.0/Music/",
+  "userdataPath" : "./userdata/",
+  "cookiesPath": "./cookies/",
+  "onlineMode":true
+}
