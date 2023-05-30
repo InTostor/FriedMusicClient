@@ -1,0 +1,13 @@
+nointerface:
+  json
+  time
+  glob
+  os
+  requests
+  urllib
+  python-vlc
+  random
+
+interface:
+  gtk:
+    
