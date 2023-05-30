@@ -1,0 +1,23 @@
+Player:
+  # Buttons
+  PlayerPlayButton
+  PlayerNextButton
+  PlayerPreviousButton
+  
+  PlayerAddToPlaylistButton
+  PlayerAddToFavouritesButton
+  PlayerAddToBlockList
+  PlayerSaveTrackLocallyButton
+
+  # Track metadata
+  PlayerAlbumImage
+  PlayerCurrentTrackNameLabel
+  PlayerCurrentTrackArtistLabel
+  PlayerCurrentTrackFileNameLabel
+
+  # Analog controls
+  PlayerSeekerSlider
+  PlayerVolumeSlider
+  
+
+▶️⏯🔀🔁🔂⏭⏮❤🔽

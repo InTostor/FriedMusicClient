@@ -11,7 +11,7 @@
       "program": "index.py",
       "console": "integratedTerminal",
       "justMyCode": true,
-      "cwd": "${workspaceFolder}/console/"
+      "cwd": "${workspaceFolder}/MultiInterface/"
     },
     {
       "name": "Python: Current File",

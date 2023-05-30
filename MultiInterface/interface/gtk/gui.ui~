@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <!-- interface-css-provider-path ui.css -->
+  <object class="GtkAdjustment" id="PlayerSeekerSettings">
+    <property name="upper">100</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+  <template class="MainWindow" parent="GtkApplicationWindow">
+    <property name="width-request">450</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed" id="PlayerPanel">
+        <property name="width-request">400</property>
+        <property name="height-request">400</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="PlayerPlayButton">
+            <property name="label">gtk-media-play</property>
+            <property name="name">PlayerPlayButton</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="use-stock">True</property>
+            <style>
+              <class name="PlayerPlayButton"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">150</property>
+            <property name="y">150</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="PlayerPreviousButton">
+            <property name="label">gtk-media-previous</property>
+            <property name="width-request">100</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="use-stock">True</property>
+          </object>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">150</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="PlayerNextButton">
+            <property name="label">gtk-media-next</property>
+            <property name="width-request">100</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="use-stock">True</property>
+          </object>
+          <packing>
+            <property name="x">280</property>
+            <property name="y">150</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkScale" id="PlayerSeekerSlider">
+            <property name="width-request">360</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="adjustment">PlayerSeekerSettings</property>
+            <property name="round-digits">1</property>
+            <property name="draw-value">False</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">260</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="PlayerCurrentTrackNameLabel">
+            <property name="name">PlayerCurrentTrackNameLabel</property>
+            <property name="width-request">200</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Lorem Ipsum</property>
+          </object>
+          <packing>
+            <property name="x">83</property>
+            <property name="y">37</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="DebugCommandLine">
+            <property name="width-request">300</property>
+            <property name="height-request">32</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="primary-icon-stock">gtk-execute</property>
+            <property name="placeholder-text" translatable="yes">Command Line Interface</property>
+          </object>
+          <packing>
+            <property name="x">35</property>
+            <property name="y">349</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

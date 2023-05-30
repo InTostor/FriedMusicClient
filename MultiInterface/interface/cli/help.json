@@ -1,0 +1,40 @@
+[
+  {
+    "command":"/help",
+    "description":"Shows this command"
+  },
+  {
+    "command":"/showPlaylists",
+    "description":"Shows your Playlists"
+  },
+  {
+    "command":"/syncUp",
+    "description":"uploads files from {userdataPath} on account service"
+  },
+  {
+    "command":"/syncDown",
+    "description":"downloads files account service"
+  },
+  {
+    "command":"/play",
+    "description":"as play button of player"
+  },
+  {
+    "command":"/pause",
+    "description":"as pause button of player"
+  },
+  {
+    "command":"/seekto <position>",
+    "description":"seeks player to the <position>. [0;1]"
+  },
+  {
+    "command":"/getCurrentTrack",
+    "description":"returns current track filename"
+  },
+  {
+    "command":"/downloadCurrent",
+    "description":"downloads currently playing track into music directory"
+  }
+]
+
+
